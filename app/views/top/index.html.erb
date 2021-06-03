@@ -1,0 +1,17 @@
+<header>
+  <h1>新しい働き方黒板ジェネレーター</h1>
+</header>
+<p>
+  <%= image_tag image_path %>
+</p>
+<%= form_with url: g_path do |f| %>
+  <%= f.text_area :message, rows: 5 %>
+  <div>
+    <%= f.submit "画像生成" %>
+  </div>
+<% end %>
+
+<footer>
+  <hr>
+  <p><small><a href="https://github.com/masoo/nnlh">このアプリのソースコード</a></small></p>
+</footer>
