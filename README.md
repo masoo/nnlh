@@ -8,6 +8,9 @@ This web app is a picture generator.
 $ bundle exec rails s
 ```
 
+## LICENSE
+This project rocks and uses [MIT-LICENSE](/LICENSE).
+
 ## Buy coffee to the author.
 
 [Github Sponsor | https://github.com/sponsors/masoo](https://github.com/sponsors/masoo)
