@@ -2,7 +2,7 @@
   <h1>新しい働き方黒板ジェネレーター</h1>
 </header>
 <p>
-  <%= image_tag image_path %>
+  <%= image_tag "/image.png", alt: "image" %>
 </p>
 <%= form_with url: g_path do |f| %>
   <%= f.text_area :message, rows: 5 %>
