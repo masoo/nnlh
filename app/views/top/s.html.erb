@@ -1,5 +1,5 @@
 <header>
-  <h1>新しい働き方黒板ジェネレーター</h1>
+  <h1>新しい働き方黒板ジェネレーター(小さいフォント)</h1>
 </header>
 <p>
   <%= image_tag "/image.png", alt: "image" %>
@@ -7,12 +7,13 @@
 <%= form_with url: g_path do |f| %>
   <%= f.text_area :message, rows: 5 %>
   <div>
+    <%= f.hidden_field :s, value: "small" %>
     <%= f.submit "画像生成" %>
   </div>
 <% end %>
 
 <footer>
   <hr>
-  <p><small><%= link_to "小さいフォント用", s_path %></small></p>
+  <p><small><%= link_to "大きいフォント用", root_path %></small></p>
   <p><small><a href="https://github.com/masoo/nnlh">このアプリのソースコード</a></small></p>
 </footer>

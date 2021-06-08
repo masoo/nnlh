@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to: "top#index"
 
-  get "image", to: "top#show_image"
+  get "s", to: "top#s"
   post "g", to: "top#create"
 end
